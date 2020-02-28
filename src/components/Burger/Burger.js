@@ -20,7 +20,7 @@ const Burger = (props) => {
         //key = qual tip de ingrediente
         //value = quantidade do ingrediente
 
-    if (transformedIngredients.length ===0 ) {
+    if (transformedIngredients.length === 0 ) {
         transformedIngredients = <p>Please start add ingredients</p>
     }
 
